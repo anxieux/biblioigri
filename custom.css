@@ -1,0 +1,16 @@
+.masthead {
+  background-color: gray;
+  color: white;
+}
+
+.masthead p {
+    margin: 5px 0 5px 0;
+}
+
+.page-header {
+    margin: 20px 0 20px 0;
+}
+
+.nav-tabs {
+    margin-top: 20px;
+}

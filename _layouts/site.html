@@ -1,0 +1,24 @@
+{% include top.html %}
+<body>
+  {% include header.html %}
+  <div class="container">
+    {% include carousel.html %}
+    {% include nav.html %}
+
+    {% if page.body_class != 'overview' %}
+      <div class="row">
+        <div class="col-md-3">
+          {% include news.html %}
+        </div>
+        <div class="col-md-9">
+          {{ content }}
+        </div>
+      </div>
+    {% else %}
+      {{ content }}
+    {% endif %}
+  </div> <!-- /container -->
+
+  {% include scripts.html %}
+</body>
+</html>

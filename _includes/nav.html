@@ -1,0 +1,33 @@
+<ul class="nav nav-tabs nav-justified">
+  <li role="presentation" class="dropdown{% if page.body_class == 'about' %} active{% endif %}">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+      О нас <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="#">Концепция</a></li>
+      <li><a href="{{ relative-baseurl }}about/contacts/index.html">Контакты</a></li>
+      <li><a href="#">Документы</a></li>
+    </ul>
+  </li>
+  <li role="presentation" class="dropdown{% if page.body_class == 'game' %} active{% endif %}">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+      Учим играя <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="{{ relative-baseurl }}game/history_games/index.html"> Историко-культурные игры </a></li>
+      <li><a href="{{ relative-baseurl }}game/abonnement/index.html"> Абонемент </a></li>
+    </ul>
+  </li>
+  <li role="presentation" class="dropdown{% if page.body_class == 'walk' %} active{% endif %}">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+      Учим гуляя <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="{{ relative-baseurl }}walk/journey/index.html"> Образовательные путешествия </a></li>
+      <li><a href="{{ relative-baseurl }}walk/abonnement/index.html"> Абонемент </a></li>
+    </ul>
+  </li>
+  <li role="presentation" class="{% if page.body_class == 'friends' %} active{% endif %}">
+    <a href="{{ relative-baseurl }}friends/index.html"> Друзья и соратники </a>
+  </li>
+</ul>
