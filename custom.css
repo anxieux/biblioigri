@@ -11,6 +11,10 @@
     margin: 20px 0 20px 0;
 }
 
+.page-header h4 {
+    color: rgba(0, 0, 0, 0.50);
+}
+
 .nav-tabs {
     margin-top: 20px;
 }
