@@ -14,3 +14,9 @@
 .nav-tabs {
     margin-top: 20px;
 }
+
+.v-align {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
