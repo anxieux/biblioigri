@@ -15,6 +15,11 @@
     color: rgba(0, 0, 0, 0.50);
 }
 
+.table td span {
+    color: rgba(0, 0, 0, 0.60);
+    font-style: italic;
+}
+
 .nav-tabs {
     margin-top: 20px;
 }
